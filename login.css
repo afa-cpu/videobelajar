@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color:#fffdf3;
+  width: 1440px;
+  height: 1024px;
+  /* border: 3px solid red; */
+}
+/* -------navbar------ */
+.header {
+  background-color: #ffffff;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+}
+nav li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+nav img {
+  margin: 0 10%;
+}
+
+/* -----login box----- */
+
+.login-box {
+  display: block;
+  width: 590px;
+  height: 617px;
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  margin: 10% auto;
+  background-color: #ffffff;
+}
+.login-header {
+  text-align: center;
+}
+.login-header header {
+  font-size: 30px;
+  color: #222325;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.login-header p {
+  font-size: 16px;
+  color: #333333a3;
+  font-family: sans-serif;
+  letter-spacing: 0.2px;
+}
+.container {
+  display: block;
+  padding: 35px 25px;
+  /* border: 1px solid red; */
+}
+.input-box input {
+  position: relative;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #f1f1f1;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+.input-box label {
+  font-size: 16px;
+  color: #4a505c;
+}
+.input-box label span {
+  color: red;
+}
+.forgot {
+  text-align: right;
+  padding: 10px;
+}
+.forgot a {
+  color: #4a505c;
+  font-size: 16px;
+  text-decoration: none;
+}
+.btn-masuk {
+  padding: 20px 0;
+}
+.btn-masuk button {
+  display: block;
+  width: 100%;
+  background-color: #3ecf4e;
+  border: none;
+  border-radius: 10px;
+}
+.btn-masuk button p {
+  color: #ffffff;
+  padding: 7px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-daftar button {
+  display: block;
+  width: 100%;
+  background-color: #e2fcd9;
+  border: none;
+  border-radius: 10px;
+}
+.btn-daftar button p {
+  color: #3ecf4c;
+  font-size: 16px;
+  padding: 7px;
+  cursor: pointer;
+}
+.line {
+  margin-top: 50px;
+}
+.line hr {
+  position: relative;
+  width: 100%;
+  color: #f1f1f1;
+}
+.line .atau {
+  position: absolute;
+  text-align: center;
+  background-color: #ffffff;
+  color: #4a505c;
+  transform: translate(415%, -55%);
+  padding: 10px;
+}
+.login-google{
+  margin-top: 35px;
+}
+.login-google button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+}
+.login-google button img{
+  width: 30px;
+}
+.login-google button p{
+  color: #4a505c;
+  padding: 10px 1px;
+}

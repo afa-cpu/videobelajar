@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 1440px;
+  height: 1021px;
+  background-color: #fffdf3;
+  background-color: #fffdf3;
+}
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+nav img {
+  padding: 12px 10%;
+}
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+  padding: 10px;
+}
+nav li a {
+  color: #ffffff;
+}
+
+/* -------Reg Box------- */
+.container1 {
+  width: 590px;
+  height: 893px;
+  background-color: #ffffff;
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  margin: 5% auto;
+}
+.header {
+  text-align: center;
+}
+.header h2 {
+  font-size: 32px;
+  color: #222325;
+  padding-top: 30px;
+}
+.header p {
+  font-size: 16px;
+  color: #333333dd;
+}
+.container2 {
+  display: block;
+  padding: 30px;
+}
+.input-box input {
+  position: relative;
+  width: 100%;
+  padding: 12px 0;
+  border: 1px solid #3a35413b;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.phone-input input {
+  display: flex;
+  width: 100%;
+}
+.country-code {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.country-code img {
+  position: absolute;
+  width: 30px;
+  height: 14px;
+  margin-left: 10px;
+}
+.country-code select {
+  border: 1px solid #3a35413b;
+  font-size: 14px;
+  color: #333333dd;
+  padding: 11px 50px;
+
+  margin-right: 10px;
+  border-radius: 6px;
+  margin-top: -9px;
+}
+
+.input-box label {
+  font-size: 16px;
+  color: #333333dd;
+}
+.input-box span {
+  color: red;
+}
+.forgot {
+  text-align: right;
+  margin: 20px 5px;
+}
+.forgot a {
+  font-size: 16px;
+  color: #333333dd;
+  text-decoration: none;
+}
+.btn input {
+  position: relative;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.btn .daftar input {
+  background-color: #3ecf3e;
+  margin-top: 10px;
+}
+.daftar input {
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn .masuk input {
+  background-color: #e2fce2;
+}
+.masuk input {
+  font-size: 16px;
+  color: #3ecf44;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.line hr {
+  position: relative;
+  width: 100%;
+  color: #f1f1f1;
+  margin-top: 20px;
+}
+.line p {
+  position: absolute;
+  padding: 10px;
+  transform: translate(410%, -55%);
+  background-color: #ffffff;
+  color: #4a505c;
+}
+
+.daftar-google {
+  margin-top: 20px;
+}
+.daftar-google input {
+  position: relative;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+  padding: 10px;
+  color: #4a505c;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.daftar-google img {
+  width: 40px;
+  position: relative;
+  transform: translate (340%, -110%);
+}

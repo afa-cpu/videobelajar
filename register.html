@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register videobelajar</title>
+    <link rel="stylesheet" href="/register.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="header">
+      <nav>
+        <img src="/img/Logo.png" class="logo" />
+        <ul class="nav-link">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- ----Reg box--- -->
+    <div class="container1">
+      <div class="header">
+        <h2>Pendaftaran Akun</h2>
+        <p>Yuk, Daftarkan akunmu sekarang juga!</p>
+      </div>
+
+      <!-- ----Input Data---- -->
+      <div class="container2">
+        <div class="input-box">
+          <label for="name">Nama Lengkap<span>*</span></label>
+          <input type="text" id="name" required />
+        </div>
+        <div class="input-box">
+          <label for="email">E-mail<span>*</span></label>
+          <input type="email" id="email" required />
+        </div>
+        <div class="input-box">
+          <label for="phone">No.Hp<span>*</span></label>
+
+          <div class="phone-input">
+            <div class="country-code">
+              <img src="https://flagcdn.com/w20/id.png" alt="ID" />
+              <select>
+                <option value="+62" selected>+62</option>
+                <option value="+60">+60</option>
+                <option value="+65">+65</option>
+              </select>
+              <input type="tel" id="phone" required />
+            </div>
+            
+          </div>
+        </div>
+        <div class="input-box">
+          <label for="password">Kata Sandi<span>*</span></label>
+          <input type="password" id="password" required />
+        </div>
+        <div class="input-box">
+          <label for="password">Konfirmasi Kata Sandi<span>*</span></label>
+          <input type="password" id="password" required />
+        </div>
+
+        <!-- ---Forgot password--- -->
+        <div class="forgot">
+          <a href="#">Lupa Password?</a>
+        </div>
+
+        <!-- ---Button--- -->
+        <div class="btn">
+          <div class="daftar">
+            <input type="submit" value="Daftar" />
+          </div>
+          <div class="masuk">
+            <input type="submit" value="Masuk" />
+          </div>
+        </div>
+
+        <!-- ----Middle line---- -->
+        <div class="line">
+          <hr />
+          <p>Atau</p>
+        </div>
+
+        <!-- -----Daftar google----- -->
+        <div class="daftar-google">
+          <input type="submit" value="Daftar dengan Google" />
+          <img src="/img/7123025_logo_google_g_icon.png" alt="google-icon" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
